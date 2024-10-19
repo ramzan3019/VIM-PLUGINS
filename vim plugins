@@ -1,0 +1,43 @@
+call plug#begin('~/.vim/plugged')
+
+
+Plug 'sheerun/vim-polyglot'
+
+
+Plug 'puremourning/vimspector'
+
+
+Plug 'ycm-core/YouCompleteMe'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
+
+
+Plug 'Chiel92/vim-autoformat'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile' }
+Plug 'psf/black', { 'branch': 'stable' }
+
+
+Plug 'preservim/nerdtree'          " File explorer
+Plug 'vim-airline/vim-airline'    " Status line/tabline
+Plug 'dense-analysis/ale'         " Asynchronous linting and fixing
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fuzzy file finder
+Plug 'junegunn/fzf.vim'
+
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'Chiel92/vim-autoformat'
+
+Plug 'sbdchd/neoformat'
+
+Plug 'tpope/vim-surround'
+
+Plug 'Yggdroot/indentLine'
+
+Plug 'preservim/nerdcommenter'
+
+
+Plug 'godlygeek/tabular'
+
+call plug#end()
